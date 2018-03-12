@@ -3932,12 +3932,20 @@
 .socialicon {
     float:left;
     padding-right: 50px;
+    
+    
 }
 
-#contribute {
-    padding-top: 2em;
+@media screen and (max-width: 736px) {
+    
+    .socialicon {
+    float:left;
+    padding-right: 0px;
+    
 }
 
 #footer div {
-    padding-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
+    
