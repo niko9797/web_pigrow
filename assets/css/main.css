@@ -3918,15 +3918,26 @@
 
 		}
 
-
-
-
-#right-footer {
+.left-footer {
+    float: left;
     width: 50%;
-    float: right;
 }
 
-#left-footer {
+.right-footer {
+    float: right;
     width: 50%;
-    float: left;
+    
+}
+
+.socialicon {
+    float:left;
+    padding-right: 50px;
+}
+
+#contribute {
+    padding-top: 2em;
+}
+
+#footer div {
+    padding-top: 2em;
 }
